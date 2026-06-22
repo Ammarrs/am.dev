@@ -1,0 +1,117 @@
+div.workStatus .status {
+  background-color: rgb(var(--text-success));
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+div.workStatus {
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: rgb(var(--blue-500));
+}
+
+div.name {
+  width: 400px;
+  height: 60px;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+  display: flex;
+}
+
+.blink {
+  color: rgb(var(--blue-500));
+  animation: cursor-blink 1s steps(1, end) infinite;
+}
+
+.role {
+  width: 300px;
+  display: flex;
+  color: rgb(var(--blue-500));
+}
+
+.breif {
+  width: 400px;
+  display: flex;
+  text-align: left;
+  margin: 20px 0;
+  font-family: var(--inter);
+  line-height: 1.9;
+  color: var(--text-secondary);
+}
+
+.buttons {
+  width: 700px;
+  display: flex;
+}
+
+.btn-main {
+  width: 150px;
+  height: 35px;
+  margin-right: 20px;
+  font-family: "JetBrains Mono", monospace;
+  background-color: rgb(var(--blue-500));
+  border: 1px solid rgb(var(--blue-500));
+  border-radius: 4px;
+  color: var(--text-primary);
+}
+
+.btn-main:hover {
+  background-color: rgb(var(--blue-600));
+}
+
+.btn {
+  width: 150px;
+  height: 35px;
+  margin-right: 20px;
+  font-family: "JetBrains Mono", monospace;
+  background-color: transparent;
+  border: 1px solid rgb(var(--blue-500));
+  border-radius: 4px;
+  color: rgb(var(--blue-500));
+}
+
+.btn:hover {
+  background-color: rgba(var(--primary-surface),0.5);
+}
+
+.stats {
+  display: flex;
+  text-align: left;
+}
+
+.stat {
+  margin-right: 20px;
+}
+
+.stat div {
+  color: var(--text-muted);
+  font-family: var(--inter);
+}
+
+.stat div.number {
+  font-family: var(--jet-brains);
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
