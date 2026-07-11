@@ -55,6 +55,7 @@ div.name {
   height: 35px;
   margin-right: 20px;
   font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
   background-color: rgb(var(--blue-500));
   border: 1px solid rgb(var(--blue-500));
   border-radius: 4px;

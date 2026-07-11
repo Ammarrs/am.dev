@@ -1,0 +1,79 @@
+.card {
+  width: 415px;
+  height: 250px;
+  border: 1px solid var(--primary-border);
+  border-radius: 12px;
+  background-color: rgb(var(--primary-surface));
+  padding: 20px;
+}
+
+.loadings {
+  margin-top: 20px;
+}
+
+.loading {
+  margin: 12px 0;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .bar {
+  width: 100%;
+  height: 5px;
+  margin: 3px 0;
+  background-color: var(--text-muted);
+  border-radius: 24px;
+} */
+
+.bar {
+  width: 100%;
+  height: 5px;
+  margin: 3px 0;
+  background-color: var(--primary-surface-2);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: rgb(var(--blue-500));
+  border-radius: 24px;
+}
+
+.progress-bar-js {
+  width: 72%;
+}
+
+.progress-bar-ts {
+  width: 34%;
+}
+
+.progress-bar-tailwind {
+  width: 12%;
+}
+
+.progress-bar-dart {
+  width: 56%;
+}
+
+.tools {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+.tool {
+  border: 1px solid var(--primary-border);
+  border-radius: 8px;
+  padding: 12px;
+  display: block;
+  font-size: 12px;
+  background-color: var(--primary-bg-base);
+  color: var(--text-muted);
+}
