@@ -12,7 +12,7 @@ function About() {
         <div className="subtitle">The human behind the code</div>
         <div className="section-body">
           <div className="photo">
-            <img className="my-image" loading="lazy" src={myPhoto} alt="" />
+            <img className="my-image" src={myPhoto} alt="" />
           </div>
           <div className="description">
             <div className="desc-part">
