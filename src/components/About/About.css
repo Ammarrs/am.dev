@@ -17,7 +17,7 @@
   justify-content: space-between;
 }
 
-.photo {
+/* .photo {
   width: 300px;
   height: 300px;
   border: 1px solid rgb(var(--blue-500));
@@ -25,6 +25,13 @@
   background: url("public/images/my-img.png");
   background-size: cover;
   background-repeat: no-repeat;
+} */
+
+.my-image {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(var(--blue-500));
+  border-radius: 16px;
 }
 
 .description {

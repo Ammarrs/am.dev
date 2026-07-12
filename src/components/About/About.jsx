@@ -1,4 +1,5 @@
 import "./About.css";
+import myPhoto from "../../../public/images/my-img.png";
 
 function About() {
   return (
@@ -10,7 +11,9 @@ function About() {
         <h1 className="title">Who I am</h1>
         <div className="subtitle">The human behind the code</div>
         <div className="section-body">
-          <div className="photo"></div>
+          <div className="photo">
+            <img className="my-image" src={myPhoto} alt="" />
+          </div>
           <div className="description">
             <div className="desc-part">
               I'm a software engineer and recent graduate passionate about
