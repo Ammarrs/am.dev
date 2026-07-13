@@ -1,6 +1,27 @@
 import "./Skills.css";
 
 function Skills() {
+  let skillsList = [
+    "Git",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Node.js",
+    "express.js",
+    "REST API",
+    "SQL",
+    "MongoDB",
+    "Dart",
+    "Flutter",
+    "C++",
+    "Java",
+    "Python",
+    "Docker",
+  ];
+
   return (
     <div className="center flex">
       <div className="section">
@@ -49,30 +70,16 @@ function Skills() {
                   <div className="progress-bar progress-bar-tailwind"></div>
                 </div>
               </div>
-              
             </div>
           </div> */}
           <div className="card">
             <div className="section-name">frameworks & tools</div>
             <div className="tools">
-              <div className="tool">Git</div>
-              <div className="tool">HTML</div>
-              <div className="tool">CSS</div>
-              <div className="tool">Tailwind CSS</div>
-              <div className="tool">JavaScript</div>
-              <div className="tool">TypeScript</div>
-              <div className="tool">React</div>
-              <div className="tool">Node.js</div>
-              <div className="tool">express.js</div>
-              <div className="tool">REST APIs</div>
-              <div className="tool">SQL</div>
-              <div className="tool">MongoDB</div>
-              <div className="tool">Dart</div>
-              <div className="tool">Flutter</div>
-              <div className="tool">c++</div>
-              <div className="tool">Java</div>
-              <div className="tool">python</div>
-              <div className="tool">Docker</div>
+              {skillsList.map((skill, index) => {
+                return <div className="tool" key={index}>
+                  {skill}
+                </div>;
+              })}
             </div>
           </div>
         </div>
