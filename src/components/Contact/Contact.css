@@ -95,7 +95,7 @@
 
 .form-input::placeholder, .form-text-area::placeholder {
   color: var(--primary-border-2);
-  font-family: var(--jet-brains);
+  font-family: var(--primary-font);
 }
 
 .form-text-area {

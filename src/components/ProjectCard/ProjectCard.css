@@ -85,7 +85,7 @@
   display: flex;
   text-align: start;
   align-items: center;
-  font-family: var(--inter);
+  font-family: var(--secondary-font);
   line-height: 1.25rem;
   color: var(--text-secondary);
   font-size: 0.8125rem;

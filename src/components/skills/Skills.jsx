@@ -10,7 +10,7 @@ function Skills() {
         <h1 className="title">Tech Stack</h1>
         <div className="subtitle">What I build with </div>
         <div className="section-body">
-          <div className="card">
+          {/* <div className="card">
             <div className="section-name">languages</div>
             <div className="loadings">
               <div className="loading">
@@ -51,18 +51,28 @@ function Skills() {
               </div>
               
             </div>
-          </div>
+          </div> */}
           <div className="card">
             <div className="section-name">frameworks & tools</div>
             <div className="tools">
+              <div className="tool">Git</div>
+              <div className="tool">HTML</div>
+              <div className="tool">CSS</div>
+              <div className="tool">Tailwind CSS</div>
+              <div className="tool">JavaScript</div>
+              <div className="tool">TypeScript</div>
               <div className="tool">React</div>
               <div className="tool">Node.js</div>
+              <div className="tool">express.js</div>
               <div className="tool">REST APIs</div>
               <div className="tool">SQL</div>
-              <div className="tool">Git</div>
-              <div className="tool">Docker</div>
               <div className="tool">MongoDB</div>
+              <div className="tool">Dart</div>
               <div className="tool">Flutter</div>
+              <div className="tool">c++</div>
+              <div className="tool">Java</div>
+              <div className="tool">python</div>
+              <div className="tool">Docker</div>
             </div>
           </div>
         </div>

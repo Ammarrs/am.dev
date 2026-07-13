@@ -7,21 +7,23 @@ div.workStatus .status {
 }
 
 div.workStatus {
-  width: 15.625rem;
+  width: 19.725rem;
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
-  color: rgb(var(--blue-500));
+  color: rgb(var(--text-success));
 }
 
 div.name {
-  width: 25rem;
+  width: 30rem;
   height: 3.75rem;
+  font-family: var(--h-font);
   font-size: 3rem;
   font-weight: 700;
   margin: 1.25rem 0;
   display: flex;
+  align-items: center;
 }
 
 .blink {
@@ -30,17 +32,18 @@ div.name {
 }
 
 .role {
-  width: 18.75rem;
+  width: 25.75rem;
   display: flex;
   color: rgb(var(--blue-500));
 }
 
 .breif {
-  width: 25rem;
+  width: 40rem;
   display: flex;
   text-align: left;
   margin: 1.25rem 0;
-  font-family: var(--inter);
+  font-family: var(--secondary-font);
+  font-size: 1.4rem;
   line-height: 1.9;
   color: var(--text-secondary);
 }
@@ -54,8 +57,8 @@ div.name {
   width: 9.375rem;
   height: 2.1875rem;
   margin-right: 1.25rem;
-  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
   background-color: rgb(var(--blue-500));
   border: 1px solid rgb(var(--blue-500));
   border-radius: 0.25rem;
@@ -70,7 +73,8 @@ div.name {
   width: 9.375rem;
   height: 2.1875rem;
   margin-right: 1.25rem;
-  font-family: "JetBrains Mono", monospace;
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
   background-color: transparent;
   border: 1px solid rgb(var(--blue-500));
   border-radius: 0.25rem;
@@ -92,11 +96,11 @@ div.name {
 
 .stat div {
   color: var(--text-muted);
-  font-family: var(--inter);
+  font-family: var(--secondary-font);
 }
 
 .stat div.number {
-  font-family: var(--jet-brains);
+  font-family: var(--primary-font);
   font-weight: 300;
   font-size: 1.5rem;
   margin-bottom: 0.625rem;

@@ -1,5 +1,5 @@
 .logo-name {
-  font-family: "JetBrains Mono", monospace;
+  font-family: var(--jet-brains);
   font-weight: 900;
   font-size: large;
   display: flex;
@@ -30,7 +30,7 @@
 .navbar li .link {
   text-decoration: none;
   color: var(--text-muted);
-  font-family: "JetBrains Mono", monospace;
+  font-family: var(--primary-font);
   font-size: small;
   font-weight: 400;
 }
@@ -44,13 +44,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Inter", sans-serif;
 }
 
 .hireMeButton {
   width: 4.375rem;
   height: 1.875rem;
-  font-family: "JetBrains Mono", monospace;
+  font-family: var(--primary-font);
+  font-size: 0.7rem;
   background-color: transparent;
   border: 1px solid rgb(var(--blue-500));
   border-radius: 0.25rem;

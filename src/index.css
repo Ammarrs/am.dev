@@ -29,8 +29,61 @@
   --button-opacity: 0.9;
   --jet-brains: "JetBrains Mono", monospace;
   --inter: "Inter", sans-serif;
+  --anthem: "AnthemGrotesk", sans-serif;
+  --monobreach-regular: "monobreach-regular", monospace;
+  --monobreach-bold: "monobreach-bold", monospace;
+  --monobreach-ext-bold: "monobreach-exstraBold", monospace;
+  --tonase: "tonase", sans-serif;
+  --h-font: var(--monobreach-bold);
+  --primary-font: var(--monobreach-regular);
+  --secondary-font: var(--tonase);
+
 
 }
+
+@font-face {
+  font-family: "AnthemGrotesk";
+  src: url("../public/fonts/nv-anthem-grotesk-font/NVAnthemGroteskDemo-Regular-BF6a4f8629de3fc.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tonase";
+  src: url("../public/fonts/tonase-font/Tonase-BF6a509f63c0d90.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "monobreach-regular";
+  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-Regular-BF6a0dee295ce82.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "monobreach-bold";
+  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-Bold-BF6a0dee3c8d27b.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "monobreach-exstraBold";
+  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-ExtraBold-BF6a0dee408034a.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Trench-Slab-re";
+  src: url("../public/fonts/trench-slab-font-family/TrenchSlab-Regular.otf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 
 * {
   margin: 0;
@@ -71,7 +124,7 @@ body {
 .section {
   width: 50%;
   margin: 5rem 0;
-  font-family: var(--jet-brains);
+  font-family: var(--primary-font);
   font-size: small;
 }
 
