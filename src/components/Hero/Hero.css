@@ -1,13 +1,13 @@
 div.workStatus .status {
   background-color: rgb(var(--text-success));
-  width: 7px;
-  height: 7px;
+  width: 0.4375rem;
+  height: 0.4375rem;
   border-radius: 50%;
-  margin: 4px;
+  margin: 0.25rem;
 }
 
 div.workStatus {
-  width: 250px;
+  width: 15.625rem;
   margin: 0;
   padding: 0;
   display: flex;
@@ -16,11 +16,11 @@ div.workStatus {
 }
 
 div.name {
-  width: 400px;
-  height: 60px;
-  font-size: 48px;
+  width: 25rem;
+  height: 3.75rem;
+  font-size: 3rem;
   font-weight: 700;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   display: flex;
 }
 
@@ -30,35 +30,35 @@ div.name {
 }
 
 .role {
-  width: 300px;
+  width: 18.75rem;
   display: flex;
   color: rgb(var(--blue-500));
 }
 
 .breif {
-  width: 400px;
+  width: 25rem;
   display: flex;
   text-align: left;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   font-family: var(--inter);
   line-height: 1.9;
   color: var(--text-secondary);
 }
 
 .buttons {
-  width: 700px;
+  width: 43.75rem;
   display: flex;
 }
 
 .btn-main {
-  width: 150px;
-  height: 35px;
-  margin-right: 20px;
+  width: 9.375rem;
+  height: 2.1875rem;
+  margin-right: 1.25rem;
   font-family: "JetBrains Mono", monospace;
   font-optical-sizing: auto;
   background-color: rgb(var(--blue-500));
   border: 1px solid rgb(var(--blue-500));
-  border-radius: 4px;
+  border-radius: 0.25rem;
   color: var(--text-primary);
 }
 
@@ -67,13 +67,13 @@ div.name {
 }
 
 .btn {
-  width: 150px;
-  height: 35px;
-  margin-right: 20px;
+  width: 9.375rem;
+  height: 2.1875rem;
+  margin-right: 1.25rem;
   font-family: "JetBrains Mono", monospace;
   background-color: transparent;
   border: 1px solid rgb(var(--blue-500));
-  border-radius: 4px;
+  border-radius: 0.25rem;
   color: rgb(var(--blue-500));
 }
 
@@ -87,7 +87,7 @@ div.name {
 }
 
 .stat {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .stat div {
@@ -98,8 +98,8 @@ div.name {
 .stat div.number {
   font-family: var(--jet-brains);
   font-weight: 300;
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
   color: var(--text-primary);
 }
 
