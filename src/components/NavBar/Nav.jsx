@@ -5,9 +5,9 @@ function Nav() {
   return (
     <nav className="navbar">
       <div className="logo-name">
-        <span className="logo">
+        {/* <span className="logo">
           <img src="../../../public/favicon-logo.svg" alt="" />
-        </span>
+        </span> */}
         am.dev
       </div>
       <div className="sections">
