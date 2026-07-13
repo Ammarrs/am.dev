@@ -37,53 +37,55 @@
   --h-font: var(--monobreach-bold);
   --primary-font: var(--monobreach-regular);
   --secondary-font: var(--tonase);
-
-
 }
 
 @font-face {
   font-family: "AnthemGrotesk";
-  src: url("../public/fonts/nv-anthem-grotesk-font/NVAnthemGroteskDemo-Regular-BF6a4f8629de3fc.ttf") format("truetype");
+  src: url("../public/fonts/nv-anthem-grotesk-font/NVAnthemGroteskDemo-Regular-BF6a4f8629de3fc.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "tonase";
-  src: url("../public/fonts/tonase-font/Tonase-BF6a509f63c0d90.ttf") format("truetype");
+  src: url("../public/fonts/tonase-font/Tonase-BF6a509f63c0d90.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
-
 @font-face {
   font-family: "monobreach-regular";
-  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-Regular-BF6a0dee295ce82.ttf") format("truetype");
+  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-Regular-BF6a0dee295ce82.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "monobreach-bold";
-  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-Bold-BF6a0dee3c8d27b.ttf") format("truetype");
+  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-Bold-BF6a0dee3c8d27b.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "monobreach-exstraBold";
-  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-ExtraBold-BF6a0dee408034a.ttf") format("truetype");
+  src: url("../public/fonts/nv-monobreach-modern-monospace-font-family/NVMonobreachDemo-ExtraBold-BF6a0dee408034a.ttf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Trench-Slab-re";
-  src: url("../public/fonts/trench-slab-font-family/TrenchSlab-Regular.otf") format("truetype");
+  src: url("../public/fonts/trench-slab-font-family/TrenchSlab-Regular.otf")
+    format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }
-
 
 * {
   margin: 0;
@@ -110,29 +112,62 @@ body {
   text-align: center;
 }
 
-.divider {
-  margin: 1.875rem 0;
-  border: none;
-  height: 0.0625rem;
-  background-color: var(--primary-border);
+@media (max-width: 1750px) {
+  .divider {
+    margin: 1.875rem 0;
+    border: none;
+    height: 0.0625rem;
+    background-color: var(--primary-border);
+  }
+
+  .section-divider {
+    border-bottom: 1px solid var(--primary-border);
+  }
+
+  .section {
+    width: 50%;
+    margin: 5rem 0;
+    font-family: var(--primary-font);
+    font-size: small;
+  }
+
+  .section-name {
+    width: 15.625rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: rgb(var(--blue-500));
+  }
 }
 
-.section-divider {
-  border-bottom: 1px solid var(--primary-border);
+
+@media (max-width: 600px) {
+  .divider {
+    margin: 1.875rem 0;
+    border: none;
+    height: 0.0625rem;
+    background-color: var(--primary-border);
+  }
+
+  .section-divider {
+    border-bottom: 1px solid var(--primary-border);
+  }
+
+  .section {
+    width: 100%;
+    margin: 5rem 1rem;
+    font-family: var(--primary-font);
+    font-size: small;
+  }
+
+  .section-name {
+    width: 15.625rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: rgb(var(--blue-500));
+  }
 }
 
-.section {
-  width: 50%;
-  margin: 5rem 0;
-  font-family: var(--primary-font);
-  font-size: small;
-}
-
-.section-name {
-  width: 15.625rem;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  color: rgb(var(--blue-500));
-}

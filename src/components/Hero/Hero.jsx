@@ -2,7 +2,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="center flex">
+    <div className="hero">
       <div className="section">
         <div className="workStatus">
           <div className="status"></div>
@@ -33,19 +33,19 @@ function Hero() {
         <div className="stats">
           <div className="stat">
             <div className="number  ">3+</div>
-            <div>projects shipped</div>
+            <div className="stat-name">projects shipped</div>
           </div>
           <div className="stat">
             <div className="number">200+</div>
-            <div>github commits</div>
+            <div className="stat-name">github commits</div>
           </div>
           <div className="stat">
             <div className="number">5+</div>
-            <div>open source PRs</div>
+            <div className="stat-name">open source PRs</div>
           </div>
           <div className="stat">
             <div className="number">2026</div>
-            <div>graduation year</div>
+            <div className="stat-name">graduation year</div>
           </div>
         </div>
       </div>

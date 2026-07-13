@@ -1,6 +1,31 @@
-.section-body-projects {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  margin: 2.5rem 0;
+/* Large desktops */
+@media (max-width: 1750px) {
+  .section-body-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin: 2.5rem 0;
+  }
 }
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .section-body-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin: 2.5rem 0;
+  }
+}
+
+
+/* Phones */
+@media (max-width: 600px) {
+  .section-body-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin: 2.5rem 0;
+  }
+}
+
