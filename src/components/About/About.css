@@ -166,8 +166,10 @@
 
   .section-body {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin: 2.5rem 0;
-    justify-content: space-between;
+    align-items: baseline;
   }
 
   /* .photo {
@@ -188,7 +190,7 @@
   }
 
   .description {
-    width: calc(100% - 21.25rem);
+    width: calc(100%);
     text-align: left;
   }
 

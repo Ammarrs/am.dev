@@ -264,40 +264,52 @@
 
   .contact-grid {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 2.5rem;
   }
 
   .contact-info {
-    width: 22.5rem;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: baseline;
     gap: 1rem;
   }
 
   .available-badge {
-    height: 2.8125rem;
+    width: 20rem;
+    height: 2rem;
     background-color: rgba(var(--text-success), 0.2);
     padding: 0.75rem 0.875rem;
     border: 1px solid rgba(var(--text-success), 0.4);
     border-radius: 0.5rem;
     display: flex;
-    gap: 1rem;
     align-items: center;
+    gap: 0.5rem;
   }
 
   .available-dot {
-    width: 0.625rem;
-    height: 0.625rem;
+    width: 0.5rem;
+    height: 0.5rem;
     border-radius: 3.125rem;
     background-color: rgb(var(--text-success));
   }
 
   .available-text {
+    font-size: 0.75rem;
     color: rgb(var(--text-success));
   }
 
+  .contact-link-container {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contact-link {
-    height: 4.0625rem;
+    width: 100%;
+    height: 3.0625rem;
     padding: 0.75rem 0.875rem;
     background-color: rgb(var(--primary-surface));
     border: 1px solid var(--primary-border);
@@ -310,12 +322,12 @@
   }
 
   .contact-link-name {
-    font-size: 0.75rem;
+    font-size: 0.57rem;
     color: var(--text-muted);
   }
 
   .contact-link-text {
-    font-size: 0.875rem;
+    font-size: 0.6rem;
   }
 
   .send-message {
@@ -339,11 +351,12 @@
 
   .form-label {
     color: var(--text-muted);
+    font-size: 0.67rem;
   }
 
   .form-input {
     width: 100%;
-    padding: 0.75rem 0.875rem;
+    padding: 0.6rem 0.675rem;
     border: 1px solid var(--primary-border-2);
     /* background-color: rgb(var(--primary-surface)); */
     background-color: rgba(255, 255, 255, 0.04);
@@ -357,6 +370,7 @@
   .form-text-area::placeholder {
     color: var(--primary-border-2);
     font-family: var(--primary-font);
+    font-size: 0.8rem;
   }
 
   .form-text-area {
@@ -368,15 +382,17 @@
     border-radius: 0.375rem;
     outline: none;
     transition: border-color 0.2s ease;
+    color: var(--text-primary);
   }
 
   .send-btn {
     width: 100%;
-    padding: 0.75rem;
+    padding: 0.65rem;
     background-color: rgb(var(--blue-500));
     border: 1px solid transparent;
     border-radius: 0.3125rem;
     color: var(--text-primary);
+    font-size: 1.2rem;
   }
 
   .form-input:focus,
