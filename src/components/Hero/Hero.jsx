@@ -2,7 +2,7 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="center flex">
       <div className="section">
         <div className="workStatus">
           <div className="status"></div>

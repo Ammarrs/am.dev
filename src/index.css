@@ -143,7 +143,14 @@ body {
 
 
 @media (max-width: 600px) {
+  /* * {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  } */
+
   .divider {
+    width: 25rem;
     margin: 1.875rem 0;
     border: none;
     height: 0.0625rem;
@@ -155,8 +162,9 @@ body {
   }
 
   .section {
-    width: 100%;
-    margin: 5rem 1rem;
+    width: 90%;
+    margin: 2rem 0;
+    padding: 0 15px;
     font-family: var(--primary-font);
     font-size: small;
   }

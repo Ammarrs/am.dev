@@ -298,7 +298,8 @@
   }
 
   .breif {
-    width: 30rem;
+    width: 25rem;
+    height: 9.375rem;
     display: flex;
     text-align: left;
     margin: 1.25rem 0;
@@ -346,6 +347,7 @@
   }
 
   .stats {
+    width: 25rem;
     display: flex;
     text-align: left;
   }
