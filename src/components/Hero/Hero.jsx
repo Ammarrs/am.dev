@@ -18,16 +18,18 @@ function Hero() {
           full-time engineering role where craft and impact matter.
         </div>
         <div className="buttons">
-          <a
+          <a className="btn-anchor"
             href="public\files\Ammar_Meshaal_FrontEnd_CV.pdf"
             download="Ammar_Meshaal_FrontEnd_CV.pdf"
           >
             <button className="btn-main">download_cv.pdf</button>
           </a>
-          <a href="https://github.com/Ammarrs" target="blank">
+          <a className="btn-anchor" href="https://github.com/Ammarrs" target="blank">
             <button className="btn">github_profile</button>
           </a>
+          <a className="btn-anchor" href="">
           <button className="btn">./view_projects</button>
+          </a>
         </div>
         <hr className="divider" />
         <div className="stats">

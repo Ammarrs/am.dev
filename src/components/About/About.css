@@ -205,18 +205,20 @@
 
   .tags {
     display: flex;
-    gap: 0.625rem;
+    gap: 0.425rem;
   }
 
   .tag {
+    width: 6rem;
     border: 1px solid var(--primary-border-2);
     border-radius: 0.25rem;
-    padding: 0.4375rem 0.625rem;
+    padding: 0.3375rem 0.525rem;
     background-color: rgba(var(--primary-surface), 0.5);
     color: var(--blue-500);
-    font-size: 0.725rem;
+    font-size: 0.425rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
   }
 
