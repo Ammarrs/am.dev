@@ -19,7 +19,7 @@ function Home() {
       <div className="section-divider">
         <Projects />
       </div>
-      <div className="section-divider">
+      <div id="contact" className="section-divider">
         <Contact />
       </div>
     </div>

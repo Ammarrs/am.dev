@@ -1,5 +1,6 @@
 :root {
-  --primary-bg-base: #0a0f1e;
+  --primary-bg-base: #0a0f1f;
+  --primary-bg-base-nav: #0a0f1fd5;
   --primary-bg-deep: #0d1428;
   --primary-bg-mid: #111936;
   --primary-surface: 20, 29, 53;
@@ -91,6 +92,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

@@ -13,6 +13,11 @@ function Nav() {
       <div className="sections">
         <ul>
           <li>
+            <Link className="link" to="/">
+              home
+            </Link>
+          </li>
+          <li>
             <Link className="link" to="/about">
               about
             </Link>
@@ -23,9 +28,9 @@ function Nav() {
             </Link>
           </li>
           <li>
-            <Link className="link" to="/contact">
+            <a className="link" href="#contact">
               contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

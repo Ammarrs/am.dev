@@ -3,6 +3,7 @@
 import "./App.css";
 import Nav from "./components/NavBar/Nav";
 import Home from "./pages/Home";
+import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="" />
+        <Route path="/projects" element={<ProjectsPage/>}/>
         <Route path="" />
       </Routes>
     </BrowserRouter>

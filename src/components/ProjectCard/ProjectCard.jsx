@@ -34,7 +34,7 @@ function ProjectCard(props) {
       </div>
       {/* <div className="project-meta border"></div> */}
       <div className="project-btns">
-        <button className="project-btn">live demo</button>
+        <button className="project-btn">Learn More</button>
           <a className="btn-link" target="_blank" href={props.repo}>
             <button className="project-btn">source code</button>
           </a>
